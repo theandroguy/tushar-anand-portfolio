@@ -54,7 +54,7 @@ const Resume = () => {
     'contact.md': [
       '  📧 **Email**: tushar.anand.bpmce@gmail.com',
       '  📱 **Phone**: +91-9060177959',
-      '  🌐 **Website**: tushar.com',
+      '  🌐 **Website**: tushar-anand.netlify.app',
       '  💼 **LinkedIn**: /in/tusharanand2000',
       '  🐙 **GitHub**: /tusharanand'
     ]

@@ -27,7 +27,7 @@ const Contact = () => {
     e.preventDefault();
     
     // Set loading state
-    setFormStatus({ ...formStatus, isLoading: true });
+    setFormStatus({ isLoading: true, submitted: false, success: false, message: '' });
     
     // Get form data
     const form = e.target;
@@ -72,6 +72,7 @@ const Contact = () => {
           isLoading: false
         });
         
+        // Keep form data so user doesn't have to retype
         // Reset status after 5 seconds
         setTimeout(() => {
           setFormStatus({
@@ -179,6 +180,14 @@ const Contact = () => {
                   onSubmit={handleSubmit}
                 >
                   <input type="hidden" name="form-name" value="contact" />
+                  {/* Honeypot field for spam protection */}
+                  <div hidden>
+                    <label>
+                      Don't fill this out if you're human: 
+                      <input name="bot-field" />
+                    </label>
+                  </div>
+                  
                   <div className="space-y-4">
                     <div>
                       <label className="block text-gray-700 dark:text-gray-300 font-medium mb-2" htmlFor="name">

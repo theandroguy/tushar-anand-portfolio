@@ -23,7 +23,7 @@ const TermsOfService = () => {
             </p>
             
             <p className="text-gray-600 dark:text-gray-400 mb-6">
-              Welcome to Tushar Anand's Portfolio. These terms and conditions outline the rules and regulations for the use of Tushar Anand's website, located at tushar.com.
+              Welcome to Tushar Anand's Portfolio. These terms and conditions outline the rules and regulations for the use of Tushar Anand's website, located at tushar-anand.netlify.app.
             </p>
             
             <p className="text-gray-600 dark:text-gray-400 mb-6">
