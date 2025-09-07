@@ -1,9 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-// Import your avatar image
-import avatarImg from '../images/avatar.jpg';
-
 const Hero = () => {
   // Tech stack data with icons
   const techStack = [
@@ -141,14 +138,10 @@ const Hero = () => {
                   className="hidden sm:flex items-center justify-center lg:justify-start gap-8 pt-4"
                 >
                   <div className="text-center lg:text-left">
-                    <div className="text-2xl font-bold text-gray-900 dark:text-white">3+</div>
+                    <div className="text-2xl font-bold text-gray-900 dark:text-white">1+</div>
                     <div className="text-sm text-gray-600 dark:text-gray-400">Years Experience</div>
                   </div>
-                  <div className="w-px h-8 bg-gray-300 dark:bg-gray-600"></div>
-                  <div className="text-center lg:text-left">
-                    <div className="text-2xl font-bold text-gray-900 dark:text-white">50+</div>
-                    <div className="text-sm text-gray-600 dark:text-gray-400">Projects Completed</div>
-                  </div>
+          
                   <div className="w-px h-8 bg-gray-300 dark:bg-gray-600"></div>
                   <div className="text-center lg:text-left">
                     <div className="text-2xl font-bold text-gray-900 dark:text-white">100%</div>
@@ -168,8 +161,8 @@ const Hero = () => {
                     <div className="absolute inset-0 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 rounded-full p-2 animate-spin-slow">
                       <div className="w-full h-full bg-white dark:bg-gray-900 rounded-full p-2">
                         <img
-                          src={avatarImg}
-                          alt="Your Name - Frontend Developer"
+                          src="/my-photo.jpg"
+                          alt="Tushar Anand - Frontend Developer"
                           className="w-full h-full object-cover rounded-full shadow-2xl"
                         />
                       </div>
