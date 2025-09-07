@@ -69,7 +69,7 @@ const Projects = () => {
           >
             {filteredProjects.map((project, index) => (
               <ProjectCard 
-                key={`${filter}-${project.id}`} 
+                key={`project-${project.id}`} 
                 project={project} 
                 index={index}
                 variants={itemVariants}
