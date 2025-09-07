@@ -4,7 +4,6 @@ import {
   FaHtml5, 
   FaCss3Alt, 
   FaGitAlt, 
-  FaGithub, 
   FaJava, 
   FaAndroid, 
   FaDatabase, 

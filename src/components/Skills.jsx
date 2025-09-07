@@ -47,8 +47,6 @@ const categoryInfo = {
 };
 
 const Skills = () => {
-  const [hoveredSkill, setHoveredSkill] = useState(null);
-
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {

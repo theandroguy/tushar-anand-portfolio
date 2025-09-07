@@ -3,16 +3,10 @@ import { motion } from 'framer-motion';
 import projectsData from '../data/projects';
 
 const Projects = () => {
-  const [filter, setFilter] = useState('all');
   const [hoveredProject, setHoveredProject] = useState(null);
 
-  // Get unique categories from projects data
-  const categories = ['all'];
-  
   // Filter projects based on selected category
-  const filteredProjects = filter === 'all' 
-    ? projectsData 
-    : projectsData;
+  const filteredProjects = projectsData;
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -161,7 +155,7 @@ const ProjectCard = ({ project, index, variants, isHovered, onHover }) => {
               title="View Live Demo"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
               </svg>
             </a>
             <a

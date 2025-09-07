@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { useTheme } from '../context/ThemeContext';
 import ThemeToggle from './ThemeToggle';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const { theme } = useTheme();
   
   // Handle scroll effect for navbar background
   useEffect(() => {
