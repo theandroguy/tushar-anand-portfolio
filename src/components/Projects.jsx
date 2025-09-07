@@ -60,7 +60,7 @@ const Projects = () => {
             </p>
           </div>
 
-          {/* Projects Grid */}
+          {/* Projects Grid updated*/}
           <motion.div
             variants={containerVariants}
             initial="hidden"
